@@ -1,5 +1,5 @@
 module "generic_api_s3" {
     
     source = "./aws/s3"
-    name = "norbertostudios_generic_api"
+    name = "norbertostudios.generic-api"
 }
