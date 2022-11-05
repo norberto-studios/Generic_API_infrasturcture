@@ -1,5 +1,5 @@
-module "generic_api_s3"
-{
-    source = "./aws/s3"
+module "generic_api_s3" {
     
+    source = "./aws/s3"
+
 }
