@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "generic_api"
+  bucket = var.name
 
   tags = {
     Name        = "Generic Api"
